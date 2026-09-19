@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap');
+
+p, h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace
+}
+body {
+    background-image: url("background.jpg")
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: serif
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(52, 52, 52);
+    color: rgb(245, 255, 218);
+}
+
+.main-header {
+    margin-top: 0px;
+}
+
+img {
+    width: 80px;
+    height: auto;
+    margin-left: 92%;
+    margin-top: -5%;
+}
